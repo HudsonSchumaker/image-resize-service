@@ -122,8 +122,9 @@ curl -X POST \
 ```http
 POST /api/images/resize-with-format
 Content-Type: multipart/form-data
-
+```
 Parameters:
+```
 - file: Image file (required)
 - width: Target width in pixels (required)
 - height: Target height in pixels (required)
