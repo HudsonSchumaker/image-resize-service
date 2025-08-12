@@ -37,10 +37,10 @@ image-resize-service/
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── com/
-│       │       └── example/
-│       │           └── imageservice/
-│       │               ├── ImageServiceApplication.java      # Main application class
+│       │   └── br/
+│       │       └── schumaker/
+│       │           └── img/
+│       │               ├── ImageServiceApp.java             # Main application class
 │       │               ├── controller/
 │       │               │   ├── ImageController.java         # REST API endpoints
 │       │               │   └── WebController.java           # Web interface controller

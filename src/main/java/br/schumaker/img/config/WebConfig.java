@@ -1,4 +1,4 @@
-package com.example.imageservice.config;
+package br.schumaker.img.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

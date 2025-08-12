@@ -1,6 +1,6 @@
-package com.example.imageservice.controller;
+package br.schumaker.img.controller;
 
-import com.example.imageservice.service.ImageResizeService;
+import br.schumaker.img.service.ImageResizeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -21,7 +21,6 @@ public class WebController {
 
     private final ImageResizeService imageResizeService;
 
-    @Autowired
     public WebController(ImageResizeService imageResizeService) {
         this.imageResizeService = imageResizeService;
     }
