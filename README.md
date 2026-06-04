@@ -1,4 +1,4 @@
-# Image Resize Service
+# Image Resize Service 
 
 A modern Spring Boot application that provides both REST API and web interface for resizing images. Built with Spring Boot 3.0 and Java 17, supporting multiple image formats with high-quality scaling algorithms.
 
